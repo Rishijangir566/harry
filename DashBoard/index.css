@@ -16,6 +16,7 @@ body {
 
 .left {
     width: 20%;
+    height: 100vh;
     background-color: #fff;
 
 }
@@ -115,5 +116,24 @@ body {
     align-content: center;
     margin: 20px;
 }
+.recent{
+    /* width: 80%; */
+    height: 255px;
+    background-color: #fff;
+    margin-top: 30px;
+}
 
-.chart p {}
+.recent h1{
+    padding: 20px 30px ;
+}
+
+.recent table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.recent tr,td,th{
+    border-top: 1px solid black;
+    padding: 8px;
+    font-weight: 500;
+}
